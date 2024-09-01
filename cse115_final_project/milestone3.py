@@ -67,3 +67,5 @@ def plotFilterBarForKey(key, fkey, fval, data):
     plt.barh(dataLabels, dataSize)
     plt.show()
 
+data = cacheAndLoadData('data.csv')
+plotPieForKey('PAINTINGS', data)

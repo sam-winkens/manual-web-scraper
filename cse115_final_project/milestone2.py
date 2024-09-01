@@ -25,6 +25,17 @@ def loadRecords(filename):
             outList.append(line)
         outList = outList[1:]
     return outList
+"""
+def convertToLists(keys, lod):
+    #keys is a list of strings
+    #lod is a list of dictionaries
+    listOfLists = [] #each list corresponds to a dictionary, and each value corresponds to the value in the dict
+    for dictionary in lod:
+        for key in dictionary.keys():
+            listOfLists.append(key)
+    return listOfLists
+
+"""
 
 def convertToLists(keys, lod):
     lol = []
